@@ -8,6 +8,14 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = 'theme/pelican-bootstrap3'
+
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['i18n_subsites']
+BOOTSTRAP_THEME = 'yeti'
+
 TIMEZONE = 'Europe/Moscow'
 
 DEFAULT_LANG = 'en'
